@@ -8,19 +8,19 @@
 	{
 		"consumer_key":
 		{
-			"description": "Twitter consumer key (API Key)"
+			"description": "P7qy4cRkyPQiIoLc6zG2qnRaj"
 		},
 		"consumer_secret":
 		{
-			"description": "Twitter consumer secret (API Secret)"
+			"description": "g4wR2mYxtpMyaqf6jwaysuPMBoBm8g8V57JKrQoqFMVRFJaWXQ"
 		},
 		"access_token_key":
 		{
-			"description": "Twitter access token"
+			"description": "111600914-RhoewtuozGGIENK8MkbOXuSelk6tK0it280T0WhV"
 		},
 		"access_token_secret":
 		{
-			"description": "Twitter access token secret"
+			"description": "WlsQNxoNolNoEk7ToMAw9hnjg0MgScRBLHvdXRk0nny3n"
 		}
 	},
 	"buildpacks": [

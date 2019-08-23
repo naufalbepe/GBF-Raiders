@@ -12,6 +12,7 @@ const OS = require( 'os' );
 const raidConfigs = require( './raids.json' );
 const raidRooms = raidConfigs.map( raid => raid.room );
 
+let sslEnabled = false;
 let raidsCounter = {};
 let isMaintinence = false;
 
@@ -288,7 +289,7 @@ if ( cluster.isMaster ) {
 	}, 60000 );
 	try {
 		console.log( "Setting up websocket server..." );
-		if ( process.env.sslEnabled === "true" ) {
+		if ( sslEnabled === "true" ) {
 			const options = {
 				cert: fs.readFileSync( __dirname + '/sslcert/fullchain.pem' ),
 				key: fs.readFileSync( __dirname + '/sslcert/privkey.pem' )
@@ -324,7 +325,7 @@ if ( cluster.isMaster ) {
 } else {
 	let localStats = [];
 	let app = express();
-	if ( process.env.sslEnabled === "true" ) {
+	if ( sslEnabled === "true" ) {
 		const options = {
 			cert: fs.readFileSync( __dirname + '/sslcert/fullchain.pem' ),
 			key: fs.readFileSync( __dirname + '/sslcert/privkey.pem' )
@@ -339,7 +340,7 @@ if ( cluster.isMaster ) {
 		}
 	} );
 	let server = require( 'http' ).createServer( app );
-	server.listen( 80 );
+	server.listen( 3000 );
 	app.set( 'json spaces', 0 );
 	app.use( helmet() );
 	app.use( compression() );

@@ -93,10 +93,10 @@ if ( cluster.isMaster ) {
 	}
 	let lastTweet = new Date().getTime();
 	let twitterOptions = {
-		consumer_key: process.env.consumer_key,
-		consumer_secret: process.env.consumer_secret,
-		token: process.env.access_token_key,
-		token_secret: process.env.access_token_secret
+		consumer_key: 'P7qy4cRkyPQiIoLc6zG2qnRaj',
+		consumer_secret: 'g4wR2mYxtpMyaqf6jwaysuPMBoBm8g8V57JKrQoqFMVRFJaWXQ',
+		token: '111600914-RhoewtuozGGIENK8MkbOXuSelk6tK0it280T0WhV',
+		token_secret: 'WlsQNxoNolNoEk7ToMAw9hnjg0MgScRBLHvdXRk0nny3n'
 	};
 	let twitterBackupOptions = {
 		consumer_key: process.env.backup_consumer_key || "",

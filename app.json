@@ -9,18 +9,25 @@
 		"consumer_key":
 		{
 			"description": "P7qy4cRkyPQiIoLc6zG2qnRaj"
+			"value": "P7qy4cRkyPQiIoLc6zG2qnRaj"
 		},
 		"consumer_secret":
 		{
 			"description": "g4wR2mYxtpMyaqf6jwaysuPMBoBm8g8V57JKrQoqFMVRFJaWXQ"
+			"value": "g4wR2mYxtpMyaqf6jwaysuPMBoBm8g8V57JKrQoqFMVRFJaWXQ"
 		},
 		"access_token_key":
 		{
 			"description": "111600914-RhoewtuozGGIENK8MkbOXuSelk6tK0it280T0WhV"
+			"value": "111600914-RhoewtuozGGIENK8MkbOXuSelk6tK0it280T0WhV"
 		},
 		"access_token_secret":
 		{
 			"description": "WlsQNxoNolNoEk7ToMAw9hnjg0MgScRBLHvdXRk0nny3n"
+			"value": "WlsQNxoNolNoEk7ToMAw9hnjg0MgScRBLHvdXRk0nny3n"
+		}
+		"ssLEnabled::{
+			"value": "false"
 		}
 	},
 	"buildpacks": [

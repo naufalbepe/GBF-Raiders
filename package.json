@@ -14,6 +14,7 @@
 	"author": "gene@pinskiy.us",
 	"license": "ISC",
 	"dependencies": {
+		"natives",
 		"array-flatten": "^2.1.1",
 		"body-parser": "^1.18.3",
 		"compression": "^1.7.4",
@@ -35,7 +36,7 @@
 		"gulp-less": "^3.5.0",
 		"gulp-notify": "^3.2.0",
 		"gulp-plumber": "^1.2.0",
-		"gulp-print": "^2.0.1",
+		"gulp-print": "2.0.1",
 		"gulp-rename": "^1.4.0",
 		"gulp-replace": "^0.6.1",
 		"gulp-rtlcss": "^1.3.0",
